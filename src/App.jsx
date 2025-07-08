@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "https://nodejs-bdrailway-apiusuarios-production.up.railway.app/usuarios"; // tu API local
+const API_URL = import.meta.env.VITE_API_URL;
+
 
 function App() {
   // LISTA
