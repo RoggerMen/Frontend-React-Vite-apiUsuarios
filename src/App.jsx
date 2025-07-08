@@ -100,7 +100,7 @@ function App() {
             <button className="button1" onClick={() => eliminarUsuario(u.id)}>🗑️</button>
             <button className="button2" onClick={() => iniciarEdicion(u)}>✏️</button>
           </li>
-        ))}NodeJS-BDRailway-apiUsuarios
+        ))}
       </ul>
     </main>
   );

@@ -1,17 +1,20 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
-  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
 }
 
 main {
   max-width: 600px;
-  margin: 0 auto;
+  text-align: center;
   background: white;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 h1 {
   text-align: center;
@@ -45,7 +48,11 @@ input {
   cursor: pointer;
 }
 
-button:hover {
+.button1:hover {
+  background-color: #f65d55;
+}
+
+.button2:hover {
   background-color: #0056b3;
 }
 
